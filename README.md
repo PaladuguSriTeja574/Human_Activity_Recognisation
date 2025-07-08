@@ -69,8 +69,8 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
 - Disk: 250 GB minimum
 
 ## 📷 Sample Visuals
-![MCNN Architecture](docs/mcnn_diagram.png) <!-- Add diagram if available -->
-![Improved ST Attention](docs/st_module.png)
+![MCNN Architecture](static/images/MCNN Structure.png) <!-- Add diagram if available -->
+![Improved ST Attention](static/images/ST Module.png)
 
 ## 📚 References
 This work is referenced in the IEEE publication and featured in the Taylor & Francis book:
