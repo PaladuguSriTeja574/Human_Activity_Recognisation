@@ -69,7 +69,7 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
 - Disk: 250 GB minimum
 
 ## 📷 Sample Visuals
-![MCNN Architecture](static/images/MCNN Structure.png) <!-- Add diagram if available -->
+![MCNN Architecture](https://github.com/PaladuguSriTeja574/Human_Activity_Recognisation/blob/33140337e25e0c1a9137fe8114cfaa109f1a6627/static/images/MCNN%20Structure.png) <!-- Add diagram if available -->
 ![Improved ST Attention](static/images/ST Module.png)
 
 ## 📚 References
