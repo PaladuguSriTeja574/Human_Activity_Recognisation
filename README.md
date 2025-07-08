@@ -27,9 +27,8 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
 - ✅ Increased accuracy with 2-stage and 3-stage progressive supervision
 - ⏱️  Faster convergence and reduced training overhead
 
-
+## 📂 Project Structure 
 <pre lang="markdown"> 
-  ## 📂 Project Structure 
   ├── model/
     │ ├── mcnn.py # Multiscale CNN architecture
     │ ├── attention_modules.py # ST and DS attention modules
