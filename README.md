@@ -29,16 +29,16 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
 
 ## 📂 Project Structure
 ├── model/
-│ ├── mcnn.py # Multiscale CNN architecture
-│ ├── attention_modules.py # ST & DS attention modules
+  │ ├── mcnn.py # Multiscale CNN architecture
+  │ ├── attention_modules.py # ST & DS attention modules
 ├── data/
-│ ├── uci_har_dataset/ # UCI Human Activity Recognition Dataset
-│ └── custom_dataset/ # Custom iPhone XR collected dataset
+  │ ├── uci_har_dataset/ # UCI Human Activity Recognition Dataset
+  │ └── custom_dataset/ # Custom iPhone XR collected dataset
 ├── experiments/
-│ ├── train.py # Training pipeline
-│ ├── evaluate.py # Evaluation and comparison
+  │ ├── train.py # Training pipeline
+  │ ├── evaluate.py # Evaluation and comparison
 ├── utils/
-│ ├── preprocessing.py # Sliding window, normalization, QR decomposition
+  │ ├── preprocessing.py # Sliding window, normalization, QR decomposition
 ├── README.md
 ├── requirements.txt
 └── report/
