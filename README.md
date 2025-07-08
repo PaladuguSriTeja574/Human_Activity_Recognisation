@@ -69,18 +69,18 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
 - Disk: 250 GB minimum
 
 ## 📷 Sample Visuals
-![MCNN Architecture](https://github.com/PaladuguSriTeja574/Human_Activity_Recognisation/blob/33140337e25e0c1a9137fe8114cfaa109f1a6627/static/images/MCNN%20Structure.png) <!-- Add diagram if available -->
-![Improved ST Attention](static/images/ST Module.png)
+![MCNN Architecture](https://github.com/PaladuguSriTeja574/Human_Activity_Recognisation/blob/33140337e25e0c1a9137fe8114cfaa109f1a6627/static/images/MCNN%20Structure.png) 
+![Improved ST Attention](https://github.com/PaladuguSriTeja574/Human_Activity_Recognisation/blob/f2a269ed15389b18c09989b79bfb942e2cce15e3/static/images/ST%20Module.png)
 
 ## 📚 References
 This work is referenced in the IEEE publication and featured in the Taylor & Francis book:
 - 📄 IEEE Article: **Human Behavior Recognition Based on Multiscale CNN**  
-  DOI: [10.1109/ACCESS.2022.3209816](https://doi.org/10.1109/ACCESS.2022.3209816)
+      DOI: [10.1109/ACCESS.2022.3209816](https://doi.org/10.1109/ACCESS.2022.3209816)
 - 📘 Book Chapter: *Advancing Innovation through AI and Machine Learning Algorithms*  
-  Editors: Udara Yedukondalu, V Vijayasri Bolisetty
+      Editors: Udara Yedukondalu, V Vijayasri Bolisetty
 
 ## 🤝 Authors & Contributors
-- 📌 Paladugu Sri Teja Chowdary (corresponding author / contributor)
+- 📌 Paladugu Sri Teja Chowdary (corresponding author)
 - 🧑‍💻 Collaborators: Muntha Satya Venkata Madav, Uppe Datta Harshitha, Vemagiri Praveen, Sidgam Surya Deepak 
 - 🏢 Institution: Vishnu Institute of Technology
 
