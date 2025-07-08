@@ -1,6 +1,6 @@
 # Human Behavior Recognition Based on Multiscale Convolutional Neural Network (MCNN)
 
-![Taylor & Francis Book Cover]((https://github.com/PaladuguSriTeja574/Human_Activity_Recognisation/blob/2a34fa38c48637847656634796d691c71c7e1c97/static/images/Book%20Cover.png)
+![Taylor & Francis Book Cover](https://github.com/PaladuguSriTeja574/Human_Activity_Recognisation/blob/2a34fa38c48637847656634796d691c71c7e1c97/static/images/Book%20Cover.png)
 
 > 📘 Published as Chapter 34 in the Taylor & Francis Book:  
 > **"Advancing Innovation through AI and Machine Learning Algorithms"**  
