@@ -29,8 +29,7 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
 
 
 <pre lang="markdown"> 
-  ## 📂 Project Structure
-  ``` project-root/ 
+  ## 📂 Project Structure 
   ├── model/
     │ ├── mcnn.py # Multiscale CNN architecture
     │ ├── attention_modules.py # ST and DS attention modules
@@ -49,7 +48,7 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
     │ ├── documentation.pdf # Detailed technical report of the project 
     │ └── presentation.pptx # Project presentation slides
   ├── requirements.txt # Python package dependencies
-  ├── README.md # Project overview and documentation ``` 
+  ├── README.md # Project overview and documentation  
 </pre>
 
 
@@ -90,8 +89,8 @@ This work is referenced in the IEEE publication and featured in the Taylor & Fra
 For questions or collaborations, feel free to reach out:
 - 📧 Email: amithapaladugu6@gmail.com
 - 📧 Email: 21pa1a5473@vishnu.edu.in
-- 🌐 [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/paladugu-sri-teja-chowdary/))
-- 🌍 [Personal Portfolio]([https://yourportfolio.com](https://teja-chowdary-1510.netlify.app/))
+- 🌐 [LinkedIn](https://www.linkedin.com/in/paladugu-sri-teja-chowdary/)
+- 🌍 [Personal Portfolio](https://teja-chowdary-1510.netlify.app/)
 
 ## 📝 License
 This project is available under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
