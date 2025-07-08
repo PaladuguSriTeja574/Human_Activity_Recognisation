@@ -39,8 +39,8 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
     │ ├── train.py # Model training script 
     │ ├── evaluate.py # Model evaluation script
   ├── utils/
-    │ ├── preprocessing.py # Data preprocessing and QR decomposition 
-  logic ├── docs/
+    │ ├── preprocessing.py # Data preprocessing and QR decomposition logic
+  ├── docs/
     │ ├── mcnn_diagram.png # MCNN architecture diagram
     │ ├── st_module.png # ST attention module diagram 
   ├── report/ 
