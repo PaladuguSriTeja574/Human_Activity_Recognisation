@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+{% extends 'base.html' %}
+{% block title %}Index{% endblock %}
+{% block body %}
+  
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/register">Register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- hero area -->
+<section class="hero-area bg-primary" id="parallax">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+        <h1 class="text-white font-tertiary">Human Behaviour Recognition Based on Multiscale Convolutional Neural Network</h1>
+      </div>
+    </div>
+  </div>
+  <div class="layer-bg w-100">
+    <img class="img-fluid w-100" src="static/images/illustrations/leaf-bg.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l2">
+    <img src="static/images/illustrations/dots-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l3">
+    <img src="static/images/illustrations/leaf-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l4">
+    <img src="static/images/illustrations/dots-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l5">
+    <img src="static/images/illustrations/leaf-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l6">
+    <img src="static/images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l7">
+    <img src="static/images/illustrations/dots-group-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l8">
+    <img src="static/images/illustrations/leaf-pink-round.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l9">
+    <img src="static/images/illustrations/act1.png" alt="bg-shape">
+  </div>
+</section>
+<!-- /hero area -->
+
+<!-- about -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+    <h3 class="section-title">Abstract</h3>
+
+      <div class="col-lg-10 mx-auto  text-justify">
+        <p class="font-secondary paragraph-lg ">The key problem in human behavior recognition is how to build a spatiotemporal feature extraction and classification network. Aiming at the problem that the existing channel attention mechanism
+          directly pools the global average information of each channel and ignores its local spatial information, this
+          paper proposes two improved channel attention modules, namely the space-time (ST) interaction module
+          of matrix operation and the depth separable convolution module, combined with the research of human
+          behavior recognition. Combined with the superior performance of convolutional neural network (CNN)
+          in image and video processing, a multi-scale convolutional neural network method for human behavior
+          recognition is proposed. Firstly, the behavior video is segmented, and low rank learning is performed on
+          each video segment to extract the corresponding Low rank behavior information, and then these Low rank
+          behavior information are connected on the time axis to obtain the Low rank behavior information of the
+          whole video, so as to effectively capture the behavior information in the video, avoiding tedious extraction
+          steps and various assumptions. The ability of neural network to model human behavior can be transferred
+          and reused in networks with different structures. According to the different characteristics of data features
+          at different network levels, two effective feature difference measurement functions are introduced to reduce
+          the difference between features extracted from different network structures. Experiments on several public
+          datasets show that the proposed method has a good classification effect.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
+
+<!-- skills -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Algorithms</h2>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+            <div class="wave" data-progress="92%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">Existing CNN2D (92%)</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
+            <div class="wave" data-progress="93%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">Propose MDN CNN3D (93%)</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#0aecf6">
+            <div class="wave" data-progress="97%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">Extension CNN + Bidirectional + GRU (97%)</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /skills -->
+
+<!-- experience -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Concept</h2>
+      </div>
+      <div class="col-lg-4 col-md-4 text-justify">
+        <h4 class="mb-1">Existing System</h4>
+        <p style="font-size:0.8vw">All existing algorithms were directly employing global average information of each channel (taking all channels of images as single data) which ignores spatial and depth information from image features which leads to inaccurate recognition. If model has accurate information or each shape from the image then it can predict accurately.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 text-justify">
+        <h4 class="mb-1">Propsed System</h4>
+        <p style="font-size:0.8vw">In proposed system we employed two different module such as space-time (ST) interaction module of matrix operation and the depth separable convolution module, combined with the research of human behaviour recognition. Combined with the superior performance of convolutional neural network (CNN) in image and video processing, a multi-scale convolutional neural network method for human behaviour recognition is proposed. Combination of spatial and depth separable module is known as Multiscale Convolution Neural Network (MCNN or MDN). Propose model is experimented on UCI HAR dataset which captured human activity using Smart Phone. Propose model giving best accuracy compare to existing CNN2D or LSTM.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 text-justify">
+        <h4 class="mb-1">Extension</h4>
+        <p style="font-size:0.8vw">To further enhance accuracy we have combined 3 algorithms together called CNN + GRU + Bidirectional with less number of training parameters which help in further reducing model complexity with 1000 parameters and its accuracy is high compare to propose and existing algorithms. Extension hybrid optimizing training features with 3 different CNN + GRU + Bidirectional which helps in obtaining more optimized features which in turn give better accuracy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ./experience -->
+
+<!-- education -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Advantages</h2>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div><br><br>
+            <h4>High Accuracy</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div><br><br>
+            <h4>Less Time Taking</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div><br><br>
+            <h4>Cost Efficient</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div><br><br>
+            <h4>Accuracte Prediction</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="static/images/backgrounds/education-bg.png" alt="bg-image">
+</section>
+<!-- /education -->
+
+<!-- services -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Requirements</h2>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-palette icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Hardware Requirements</h4>
+            <ul class="text-dark text-justify" style="font-size:0.8vw">
+              <li>Processor :  i3 Processor</li>
+              <li>HardDisk  : 256GB</li>
+              <li>Ram       : 8GB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card active-bg-primary hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-vector icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Technologies</h4>
+            <ul class="text-dark text-lg text-justify" style="font-size:0.8vw">
+              <li>Frontend : Html,CSS,JS </li>
+              <li>Server Side: Flask</li>
+              <li>Backend  : Sqlite3, Dataset</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-panel icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Software Requirements</h4>
+            <ul class="text-dark text-justify" style="font-size:0.8vw">
+              <li>Python :  3.7 Version</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /services -->
+
+
+
+
+
+{% endblock %}  
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>{% block title %} Base Page  {% endblock %}</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Creative Portfolio Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  
+
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="static/plugins/bootstrap/bootstrap.min.css">
+  
+  <!-- slick slider -->
+  <link rel="stylesheet" href="static/plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="static/plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    {% block body %}
+
+    {% endblock %}
+
+    <!-- footer -->
+<footer class="bg-dark footer-section">
+    
+    <div class="border-top text-center border-dark py-5">
+      <p class="mb-0 text-light">Copyright &copy;<script>
+          var CurrentYear = new Date().getFullYear()
+          document.write(CurrentYear)
+        </script> Designed &amp; Developed by <a class="text-white-50">me</a></p>
+    </div>
+  </footer>
+  <!-- /footer -->
+
+
+    <!-- jQuery -->
+<script src="static/plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="static/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="static/plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="static/plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="static/js/script.js"></script>
+</body>
+</html>
