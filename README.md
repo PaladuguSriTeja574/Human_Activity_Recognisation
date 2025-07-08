@@ -1,6 +1,6 @@
 # Human Behavior Recognition Based on Multiscale Convolutional Neural Network (MCNN)
 
-![Taylor & Francis Book Cover](https://user-images.githubusercontent.com/your-link-here/cover.jpg) <!-- Replace with actual image URL if hosting externally -->
+![Taylor & Francis Book Cover](https://user-images.githubusercontent.com/your-link-here/cover.jpg) 
 
 > 📘 Published as Chapter 34 in the Taylor & Francis Book:  
 > **"Advancing Innovation through AI and Machine Learning Algorithms"**  
@@ -28,7 +28,29 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
 - ⏱️  Faster convergence and reduced training overhead
 
 
-<pre lang="markdown"> ## 📂 Project Structure ``` project-root/ ├── model/ │ ├── mcnn.py # Multiscale CNN architecture │ ├── attention_modules.py # ST and DS attention modules ├── data/ │ ├── uci_har_dataset/ # UCI Human Activity Recognition dataset │ └── custom_dataset/ # iPhone XR collected custom dataset ├── experiments/ │ ├── train.py # Model training script │ ├── evaluate.py # Model evaluation script ├── utils/ │ ├── preprocessing.py # Data preprocessing and QR decomposition logic ├── docs/ │ ├── mcnn_diagram.png # MCNN architecture diagram │ ├── st_module.png # ST attention module diagram ├── report/ │ ├── documentation.pdf # Detailed technical report of the project │ └── presentation.pptx # Project presentation slides ├── requirements.txt # Python package dependencies ├── README.md # Project overview and documentation ``` </pre>
+<pre lang="markdown"> 
+  ## 📂 Project Structure
+  ``` project-root/ 
+  ├── model/
+    │ ├── mcnn.py # Multiscale CNN architecture
+    │ ├── attention_modules.py # ST and DS attention modules
+  ├── data/ 
+    │ ├── uci_har_dataset/ # UCI Human Activity Recognition dataset 
+    │ └── custom_dataset/ # iPhone XR collected custom dataset 
+  ├── experiments/ 
+    │ ├── train.py # Model training script 
+    │ ├── evaluate.py # Model evaluation script
+  ├── utils/
+    │ ├── preprocessing.py # Data preprocessing and QR decomposition 
+  logic ├── docs/
+    │ ├── mcnn_diagram.png # MCNN architecture diagram
+    │ ├── st_module.png # ST attention module diagram 
+  ├── report/ 
+    │ ├── documentation.pdf # Detailed technical report of the project 
+    │ └── presentation.pptx # Project presentation slides
+  ├── requirements.txt # Python package dependencies
+  ├── README.md # Project overview and documentation ``` 
+</pre>
 
 
 ## 🧪 Datasets
@@ -60,15 +82,16 @@ This work is referenced in the IEEE publication and featured in the Taylor & Fra
   Editors: Udara Yedukondalu, V Vijayasri Bolisetty
 
 ## 🤝 Authors & Contributors
-- 📌 Your Name (corresponding author / contributor)
-- 🧑‍💻 Collaborators: Include names or GitHub links
-- 🏢 Institution: Mention your college/university
+- 📌 Paladugu Sri Teja Chowdary (corresponding author / contributor)
+- 🧑‍💻 Collaborators: Muntha Satya Venkata Madav, Uppe Datta Harshitha, Vemagiri Praveen, Sidgam Surya Deepak 
+- 🏢 Institution: Vishnu Institute of Technology
 
 ## 📫 Contact
 For questions or collaborations, feel free to reach out:
-- 📧 Email: yourname@example.com
-- 🌐 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 🌍 [Personal Portfolio](https://yourportfolio.com)
+- 📧 Email: amithapaladugu6@gmail.com
+- 📧 Email: 21pa1a5473@vishnu.edu.in
+- 🌐 [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/paladugu-sri-teja-chowdary/))
+- 🌍 [Personal Portfolio]([https://yourportfolio.com](https://teja-chowdary-1510.netlify.app/))
 
 ## 📝 License
 This project is available under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
