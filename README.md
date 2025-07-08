@@ -27,27 +27,9 @@ The model outperformed several traditional and deep learning baselines (CNN, LST
 - ✅ Increased accuracy with 2-stage and 3-stage progressive supervision
 - ⏱️  Faster convergence and reduced training overhead
 
-## 📂 Project Structure
-├── model/
-  │ ├── mcnn.py # Multiscale CNN architecture
-  │ ├── attention_modules.py # ST & DS attention modules
-├── data/
-  │ ├── uci_har_dataset/ # UCI Human Activity Recognition Dataset
-  │ └── custom_dataset/ # Custom iPhone XR collected dataset
-├── experiments/
-  │ ├── train.py # Training pipeline
-  │ ├── evaluate.py # Evaluation and comparison
-├── utils/
-  │ ├── preprocessing.py # Sliding window, normalization, QR decomposition
-├── README.md
-├── requirements.txt
-└── report/
-├── documentation.pdf # Detailed technical report
-└── presentation.pptx # Project presentation slides
 
-markdown
-Copy
-Edit
+<pre lang="markdown"> ## 📂 Project Structure ``` project-root/ ├── model/ │ ├── mcnn.py # Multiscale CNN architecture │ ├── attention_modules.py # ST and DS attention modules ├── data/ │ ├── uci_har_dataset/ # UCI Human Activity Recognition dataset │ └── custom_dataset/ # iPhone XR collected custom dataset ├── experiments/ │ ├── train.py # Model training script │ ├── evaluate.py # Model evaluation script ├── utils/ │ ├── preprocessing.py # Data preprocessing and QR decomposition logic ├── docs/ │ ├── mcnn_diagram.png # MCNN architecture diagram │ ├── st_module.png # ST attention module diagram ├── report/ │ ├── documentation.pdf # Detailed technical report of the project │ └── presentation.pptx # Project presentation slides ├── requirements.txt # Python package dependencies ├── README.md # Project overview and documentation ``` </pre>
+
 
 ## 🧪 Datasets
 - [UCI HAR Dataset](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
